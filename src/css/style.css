@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Inter:wght@400;500&family=Lora:ital@1&family=Nunito&family=Raleway:wght@200;300;400&family=Source+Code+Pro:wght@300&display=swap');
+h2{
+    font-family: 'Fredoka', sans-serif;
+}
+input{
+    width: 320px;
+    height: 25px;
+    outline: none;
+    border-radius: 18px;
+    transition: 0.3s;
+    padding: 3px 15px 3px 15px;
+    margin: 5px 1px 3px 5px;
+    margin-left: 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+input:hover{
+    box-shadow: 2px 2px 5px 1px rgb(49, 46, 46);
+   
+}
+input:focus{
+    border: 2px solid rgb(1, 0, 2);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 20px;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+}
+.videoContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: row;
+    margin-top: 50px;
+}
+.invalidLink{
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
+button{
+    width: 90px;
+    height: 30px;
+    outline: none;
+    border-radius: 18px;
+    transition: 0.3s;
+    padding: 3px 15px 3px 15px;
+    margin: 15px 1px 3px 5px;
+    
+    font-family: 'Source Code Pro', monospace; 
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+button:hover{
+    background-color: rgb(204, 204, 204);
+    cursor: pointer;
+    transition: ease-in-out 230ms;
+   
+}
+.videoPlay{
+    display: flex;
+    flex:50%;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.choice{
+    display: flex;
+  
+
+
+}
+.drawingContainer{
+    display: flex;
+    width: 640px;
+    height: 360px;
+    border:1px solid black;
+    flex: 50%;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.colorBox{  
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+.greenColor{
+    display: flex;
+    background-color: #0e4d03;
+    width:30px;
+    height: 30px;
+    outline: none;
+    
+    
+}
+.redColor{
+    display: flex;
+    background-color: #ff0000;
+    width:30px;
+    height: 30px;
+   
+}
+.blueColor{
+    display: flex;
+    background-color: #050c92;
+    width:30px;
+    height: 30px;
+    
+}
+.blackColor{
+    display: flex;
+    background-color: #050c92;
+    width:30px;
+    height: 30px;
+}
+.purpleColor{
+    display: flex;
+    background-color: #350450;
+    width:30px;
+    height: 30px;
+}
+.yellowColor{
+    display: flex;
+    background-color: #f4e110;
+    width:30px;
+    height: 30px;
+}
