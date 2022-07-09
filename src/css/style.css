@@ -83,9 +83,14 @@ button:hover{
 }
 .choice{
     display: flex;
-  
-
-
+    align-items: center; 
+}
+.textChange{
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 .drawingContainer{
     display: flex;
@@ -128,7 +133,7 @@ button:hover{
 }
 .blackColor{
     display: flex;
-    background-color: #050c92;
+    background-color: #000000;
     width:30px;
     height: 30px;
 }

@@ -55,12 +55,12 @@ const DrawingArea = ({onClearLines, clearLines}) => {
         <div >
             <div className='choice'>
                 <button onClick={(e)=>eraseDrawing(e)}>Erase</button>
-                
+                <div className='textChange'>Change Color : </div>
                 <div className='colorBox'>                   
                     <button className='greenColor' id="#0e4d03" onClick={(e)=>checkColor(e)}></button>
                     <button className='redColor'   id="#ff0000" onClick={(e)=>checkColor(e)}></button>
                     <button className='blueColor'  id="#050c92" onClick={(e)=>checkColor(e)}></button>
-                    <button className='blackColor' id="#050c92" onClick={(e)=>checkColor(e)}></button>
+                    <button className='blackColor' id="#000000" onClick={(e)=>checkColor(e)}></button>
                     <button className='purpleColor'id="#350450" onClick={(e)=>checkColor(e)}></button>
                     <button className='yellowColor'id="#f4e110" onClick={(e)=>checkColor(e)}></button>
                 </div>
